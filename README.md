@@ -40,9 +40,15 @@ developers who are pushing the boundaries of what's possible with AI.
 ---
 
 ## 📊 GitHub Stats:
+<div align="center">
+
 ![](https://github-readme-stats.vercel.app/api?username=naitik-patidar&theme=apprentice&hide_border=true&hide_rank=true&show_icons=true)
-![](https://streak-stats.demolab.com/?user=naitik-patidar&theme=apprentice&hide_border=true&cache_seconds=0)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=naitik-patidar&theme=apprentice&hide_border=true&layout=compact&cache_seconds=0)
+
+![](https://streak-stats.demolab.com/?user=naitik-patidar&theme=apprentice&hide_border=true)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=naitik-patidar&theme=apprentice&hide_border=true&layout=compact)
+
+</div>
 
 ---
 
