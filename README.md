@@ -57,10 +57,13 @@ developers who are pushing the boundaries of what's possible with AI.
 
 ---
 
-## 💡 Quote of the Day:
-> *"The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.""* — Steve Jobs
+<div align="center">
 
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Innovation+distinguishes+between+a+leader+and+a+follower&author=Steve+Jobs)](https://github.com/piyushsuthar/github-readme-quotes)
+### 💡 Quote of the Day
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Georgia&size=20&duration=2500&pause=5000&color=6AD3F7&center=true&vCenter=true&multiline=true&width=800&height=120&lines=The+only+way+to+do+great+work+is+to+love+what+you+do.;If+you+haven't+found+it+yet%2C+keep+looking.+Don't+settle.;%E2%80%94+Steve+Jobs)](https://git.io/typing-svg)
+
+</div>
 
 ---
 
