@@ -25,7 +25,8 @@ developers who are pushing the boundaries of what's possible with AI.
 
 📫 Reach me at: **naitikpatidar090@gmail.com**
 
-> *"The people who are crazy enough to think they can change the world are the ones who do." — Steve Jobs*
+> “A year spent in artificial intelligence is enough to make one believe in God.”
+  ~ Alan Perlis
 
 ---
 
