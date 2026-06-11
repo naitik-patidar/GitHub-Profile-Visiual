@@ -58,6 +58,11 @@ developers who are pushing the boundaries of what's possible with AI.
 
 ---
 
+## 🎮 Mario chasing AGI!
+![Snake animation](https://raw.githubusercontent.com/naitik-patidar/naitik-patidar/output/github-contribution-grid-snake-dark.svg)
+
+---
+
 <div align="center">
 
 ### 💡 Quote of the Day
