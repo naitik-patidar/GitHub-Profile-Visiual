@@ -1,0 +1,144 @@
+<svg width="100%" viewBox="0 0 800 300" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Animated neural network</title>
+<desc>Pulsing nodes and signal flows across a neural network — Naitik Patidar</desc>
+<defs>
+  <style>
+    .node-pulse-1 { animation: pulse 2.2s ease-in-out infinite 0s; }
+    .node-pulse-2 { animation: pulse 2.2s ease-in-out infinite 0.3s; }
+    .node-pulse-3 { animation: pulse 2.2s ease-in-out infinite 0.6s; }
+    .node-pulse-4 { animation: pulse 2.2s ease-in-out infinite 0.9s; }
+    .node-pulse-5 { animation: pulse 2.2s ease-in-out infinite 1.2s; }
+    .node-pulse-6 { animation: pulse 2.2s ease-in-out infinite 1.5s; }
+    .node-pulse-7 { animation: pulse 2.2s ease-in-out infinite 1.8s; }
+    @keyframes pulse {
+      0%, 100% { r: 10; opacity: 0.65; }
+      50% { r: 13; opacity: 1; }
+    }
+    .out-pulse-1 { animation: outpulse 2.2s ease-in-out infinite 0.5s; }
+    .out-pulse-2 { animation: outpulse 2.2s ease-in-out infinite 1.5s; }
+    @keyframes outpulse {
+      0%, 100% { r: 12; opacity: 0.75; }
+      50% { r: 15; opacity: 1; }
+    }
+    .signal-1  { animation: flow 2.2s linear infinite 0.0s; }
+    .signal-2  { animation: flow 2.2s linear infinite 0.25s; }
+    .signal-3  { animation: flow 2.2s linear infinite 0.5s; }
+    .signal-4  { animation: flow 2.2s linear infinite 0.75s; }
+    .signal-5  { animation: flow 2.2s linear infinite 1.0s; }
+    .signal-6  { animation: flow 2.2s linear infinite 1.25s; }
+    .signal-7  { animation: flow 2.2s linear infinite 1.5s; }
+    @keyframes flow {
+      0%   { stroke-dashoffset: 120; opacity: 0; }
+      8%   { opacity: 0.9; }
+      92%  { opacity: 0.9; }
+      100% { stroke-dashoffset: 0; opacity: 0; }
+    }
+    .edge { stroke: #1D9E75; stroke-width: 0.7; opacity: 0.18; fill: none; }
+    .sig  { stroke: #6AD3F7; stroke-width: 1.8; fill: none; stroke-dasharray: 10 110; }
+    .ring { fill: none; stroke: #6AD3F7; stroke-width: 1; opacity: 0.45; }
+    .core { fill: #1D9E75; }
+    .out-core { fill: #6AD3F7; }
+    .lbl  { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #6AD3F7; opacity: 0.55; }
+    .lbl-out { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #6AD3F7; opacity: 0.8; }
+  </style>
+</defs>
+
+<!-- Background -->
+<rect width="800" height="300" fill="#0d1117" rx="12"/>
+
+<!-- Layer labels -->
+<text x="100" y="26" class="lbl" text-anchor="middle">input</text>
+<text x="300" y="26" class="lbl" text-anchor="middle">hidden_1</text>
+<text x="490" y="26" class="lbl" text-anchor="middle">hidden_2</text>
+<text x="690" y="26" class="lbl-out" text-anchor="middle">output</text>
+
+<!-- ===== EDGES Input -> H1 ===== -->
+<line class="edge" x1="110" y1="80"  x2="288" y2="60"/>
+<line class="edge" x1="110" y1="80"  x2="288" y2="115"/>
+<line class="edge" x1="110" y1="80"  x2="288" y2="170"/>
+<line class="edge" x1="110" y1="80"  x2="288" y2="225"/>
+<line class="edge" x1="110" y1="150" x2="288" y2="60"/>
+<line class="edge" x1="110" y1="150" x2="288" y2="115"/>
+<line class="edge" x1="110" y1="150" x2="288" y2="170"/>
+<line class="edge" x1="110" y1="150" x2="288" y2="225"/>
+<line class="edge" x1="110" y1="220" x2="288" y2="60"/>
+<line class="edge" x1="110" y1="220" x2="288" y2="115"/>
+<line class="edge" x1="110" y1="220" x2="288" y2="170"/>
+<line class="edge" x1="110" y1="220" x2="288" y2="225"/>
+
+<!-- ===== EDGES H1 -> H2 ===== -->
+<line class="edge" x1="312" y1="60"  x2="478" y2="90"/>
+<line class="edge" x1="312" y1="60"  x2="478" y2="155"/>
+<line class="edge" x1="312" y1="60"  x2="478" y2="220"/>
+<line class="edge" x1="312" y1="115" x2="478" y2="90"/>
+<line class="edge" x1="312" y1="115" x2="478" y2="155"/>
+<line class="edge" x1="312" y1="115" x2="478" y2="220"/>
+<line class="edge" x1="312" y1="170" x2="478" y2="90"/>
+<line class="edge" x1="312" y1="170" x2="478" y2="155"/>
+<line class="edge" x1="312" y1="170" x2="478" y2="220"/>
+<line class="edge" x1="312" y1="225" x2="478" y2="90"/>
+<line class="edge" x1="312" y1="225" x2="478" y2="155"/>
+<line class="edge" x1="312" y1="225" x2="478" y2="220"/>
+
+<!-- ===== EDGES H2 -> Output ===== -->
+<line class="edge" x1="502" y1="90"  x2="675" y2="110"/>
+<line class="edge" x1="502" y1="90"  x2="675" y2="195"/>
+<line class="edge" x1="502" y1="155" x2="675" y2="110"/>
+<line class="edge" x1="502" y1="155" x2="675" y2="195"/>
+<line class="edge" x1="502" y1="220" x2="675" y2="110"/>
+<line class="edge" x1="502" y1="220" x2="675" y2="195"/>
+
+<!-- ===== SIGNAL PULSES ===== -->
+<line class="sig signal-1" x1="110" y1="80"  x2="288" y2="115"/>
+<line class="sig signal-2" x1="110" y1="150" x2="288" y2="60"/>
+<line class="sig signal-3" x1="110" y1="220" x2="288" y2="170"/>
+<line class="sig signal-4" x1="312" y1="115" x2="478" y2="90"/>
+<line class="sig signal-5" x1="312" y1="60"  x2="478" y2="155"/>
+<line class="sig signal-6" x1="312" y1="225" x2="478" y2="220"/>
+<line class="sig signal-7" x1="502" y1="155" x2="675" y2="110"/>
+
+<!-- ===== INPUT NODES ===== -->
+<circle class="ring" cx="100" cy="80"  r="17"/>
+<circle class="core node-pulse-1" cx="100" cy="80"  r="10"/>
+
+<circle class="ring" cx="100" cy="150" r="17"/>
+<circle class="core node-pulse-4" cx="100" cy="150" r="10"/>
+
+<circle class="ring" cx="100" cy="220" r="17"/>
+<circle class="core node-pulse-7" cx="100" cy="220" r="10"/>
+
+<!-- ===== HIDDEN LAYER 1 ===== -->
+<circle class="ring" cx="300" cy="60"  r="17"/>
+<circle class="core node-pulse-2" cx="300" cy="60"  r="10"/>
+
+<circle class="ring" cx="300" cy="115" r="17"/>
+<circle class="core node-pulse-5" cx="300" cy="115" r="10"/>
+
+<circle class="ring" cx="300" cy="170" r="17"/>
+<circle class="core node-pulse-3" cx="300" cy="170" r="10"/>
+
+<circle class="ring" cx="300" cy="225" r="17"/>
+<circle class="core node-pulse-6" cx="300" cy="225" r="10"/>
+
+<!-- ===== HIDDEN LAYER 2 ===== -->
+<circle class="ring" cx="490" cy="90"  r="17"/>
+<circle class="core node-pulse-4" cx="490" cy="90"  r="10"/>
+
+<circle class="ring" cx="490" cy="155" r="17"/>
+<circle class="core node-pulse-1" cx="490" cy="155" r="10"/>
+
+<circle class="ring" cx="490" cy="220" r="17"/>
+<circle class="core node-pulse-5" cx="490" cy="220" r="10"/>
+
+<!-- ===== OUTPUT NODES ===== -->
+<circle class="ring" cx="690" cy="110" r="20"/>
+<circle class="out-core out-pulse-1" cx="690" cy="110" r="12"/>
+<text x="718" y="114" class="lbl-out" font-size="10">ŷ₁</text>
+
+<circle class="ring" cx="690" cy="195" r="20"/>
+<circle class="out-core out-pulse-2" cx="690" cy="195" r="12"/>
+<text x="718" y="199" class="lbl-out" font-size="10">ŷ₂</text>
+
+<!-- Bottom credit -->
+<text x="400" y="286" class="lbl" text-anchor="middle" font-size="10" opacity="0.3">neural network · naitik-patidar</text>
+</svg>
