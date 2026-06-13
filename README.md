@@ -45,27 +45,12 @@ developers who are pushing the boundaries of what's possible with AI.
 ![Live Solar System](https://raw.githubusercontent.com/naitik-patidar/naitik-patidar/main/solar-system-live.svg)
 
 </div>
+
 ---
 
 ## 📈 Activity Graph:
 [![Naitik's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=naitik-patidar&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
----
-
-<div align="center">
-
-## 📊 GitHub Stats:
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=naitik-patidar&theme=apprentice&hide_border=true&hide_rank=true&show_icons=true)
-
-![](https://streak-stats.demolab.com/?user=naitik-patidar&theme=apprentice&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=naitik-patidar&theme=apprentice&hide_border=true&layout=compact)
-
-</div>
-
----
 
 ### 💡 Quote of the Day
 
